@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Collapsible sidebar using Bootstrap 3</title>
+
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>PRIVASEE</h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <p>General Data Protection Regulation(GDPR)</p>
+                    <li class="active">
+                        <a href="#1" data-toggle="collapse" aria-expanded="false">Chapter 1</a>
+                        <ul class="collapse list-unstyled" id="1">
+                            <li><a href="/gdpr1">Art.1 - Subject-matter and objectives</a></li>
+                            <li><a href="/gdpr2">Art.2 - Material scope</a></li>
+                            <li><a href="/gdpr3">Art.3 - Territorial scope</a></li>
+                            <li><a href="/gdpr4">Art.4 - Definitions</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#2" data-toggle="collapse" aria-expanded="false">Chapter 2</a>
+                        <ul class="collapse list-unstyled" id="2">
+                            <li><a href="/gdpr5">Art.5 - Principles relating to processing of personal data</a></li>
+                            <li><a href="/gdpr6">Art.6 - Lawfulness of processing</a></li>
+                            <li><a href="/gdpr7">Art.7 - Conditions for consent</a></li>
+                            <li><a href="/gdpr8">Art.8 - Conditions applicable to child's consent in relation to information society services</a></li>
+                            <li><a href="/gdpr9">Art.9 - Processing of special categories of personal data</a></li>
+                            <li><a href="/gdpr10">Art.10 - Processing of personal data relating to criminal convictions and offences</a></li>
+                            <li><a href="/gdpr11">Art.11 - Processing which does not require identification</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#3" data-toggle="collapse" aria-expanded="false">Chapter 3</a>
+                        <ul class="collapse list-unstyled" id="3">
+                          <li><a href="/gdpr12">Art.12 - Transparent information, communication and modalities for the exercise of the rights of the data subject</a></li>
+                          <li><a href="/gdpr13">Art.13 - Information to be provided where personal data are collected from the data subject</a></li>
+                          <li><a href="/gdpr14">Art.14 - Information to be provided where personal data have not been obtained from the data subject</a></li>
+                          <li><a href="/gdpr15">Art.15 - Right of access by the data subject</a></li>
+                          <li><a href="/gdpr16">Art.16 - Right to rectification</a></li>
+                          <li><a href="/gdpr17">Art.17 - Right to erasure (‘right to be forgotten’)</a></li>
+                          <li><a href="/gdpr18">Art.18 - Right to restriction of processing</a></li>
+                          <li><a href="/gdpr19">Art.19 - Notification obligation regarding rectification or erasure of personal data or restriction of processing</a></li>
+                          <li><a href="/gdpr20">Art.20 - Right to data portability</a></li>
+                          <li><a href="/gdpr21">Art.21 - Right to object</a></li>
+                          <li><a href="/gdpr22">Art.22 - Automated individual decision-making, including profiling</a></li>
+                          <li><a href="/gdpr23">Art.23 - Restrictions</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#4" data-toggle="collapse" aria-expanded="false">Chapter 4</a>
+                        <ul class="collapse list-unstyled" id="4">
+                          <li><a href="/gdpr24">Art.24 - Responsibility of the controller</a></li>
+                          <li><a href="/gdpr25">Art.25 - Data protection by design and by default</a></li>
+                          <li><a href="/gdpr26">Art.26 - Joint controllers</a></li>
+                          <li><a href="/gdpr27">Art.27 - Representatives of controllers or processors not established in the Union</a></li>
+                          <li><a href="/gdpr28">Art.28 - Processor</a></li>
+                          <li><a href="/gdpr29">Art.29 - Processing under the authority of the controller or processor</a></li>
+                          <li><a href="/gdpr30">Art.30 - Records of processing activities</a></li>
+                          <li><a href="/gdpr31">Art.31 - Cooperation with the supervisory authority</a></li>
+                          <li><a href="/gdpr32">Art.32 - Security of processing</a></li>
+                          <li><a href="/gdpr33">Art.33 - Notification of a personal data breach to the supervisory authority</a></li>
+                          <li><a href="/gdpr34">Art.34 - Communication of a personal data breach to the data subject</a></li>
+                          <li><a href="/gdpr35">Art.35 - Data protection impact assessment</a></li>
+                          <li><a href="/gdpr36">Art.36 - Prior consultation</a></li>
+                          <li><a href="/gdpr37">Art.37 - Designation of the data protection officer</a></li>
+                          <li><a href="/gdpr38">Art.38 - Position of the data protection officer</a></li>
+                          <li><a href="/gdpr39">Art.39 - Tasks of the data protection officer</a></li>
+                          <li><a href="/gdpr40">Art.40 - Codes of conduct</a></li>
+                          <li><a href="/gdpr41">Art.41 - Monitoring of approved codes of conduct</a></li>
+                          <li><a href="/gdpr42">Art.42 - Certification</a></li>
+                          <li><a href="/gdpr43">Art.43 - Certification bodies</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#5" data-toggle="collapse" aria-expanded="false">Chapter 5</a>
+                        <ul class="collapse list-unstyled" id="5">
+                          <li><a href="/gdpr44">Art.44 - General principle for transfers</a></li>
+                          <li><a href="/gdpr45">Art.45 - Transfers on the basis of an adequacy decision</a></li>
+                          <li><a href="/gdpr46">Art.46 - Transfers subject to appropriate safeguards</a></li>
+                          <li><a href="/gdpr47">Art.47 - Binding corporate rules</a></li>
+                          <li><a href="/gdpr48">Art.48 - Transfers or disclosures not authorised by Union law</a></li>
+                          <li><a href="/gdpr49">Art.49 - Derogations for specific situations</a></li>
+                          <li><a href="/gdpr50">Art.50 - International cooperation for the protection of personal data</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#6" data-toggle="collapse" aria-expanded="false">Chapter 6</a>
+                        <ul class="collapse list-unstyled" id="6">
+                          <li><a href="/gdpr51">Art.51 - Supervisory authority</a></li>
+                          <li><a href="/gdpr52">Art.52 - Independence</a></li>
+                          <li><a href="/gdpr53">Art.53 - General conditions for the members of the supervisory authority</a></li>
+                          <li><a href="/gdpr54">Art.54 - Rules on the establishment of the supervisory authority</a></li>
+                          <li><a href="/gdpr55">Art.55 - Competence</a></li>
+                          <li><a href="/gdpr56">Art.56 - Competence of the lead supervisory authority</a></li>
+                          <li><a href="/gdpr57">Art.57 - Tasks</a></li>
+                          <li><a href="/gdpr58">Art.58 - Powers</a></li>
+                          <li><a href="/gdpr59">Art.59 - Activity reports</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#7" data-toggle="collapse" aria-expanded="false">Chapter 7</a>
+                        <ul class="collapse list-unstyled" id="7">
+                          <li><a href="/gdpr60">Art.60 - Cooperation between the lead supervisory authority and the other supervisory authorities concerned</a></li>
+                          <li><a href="/gdpr61">Art.61 - Mutual assistance</a></li>
+                          <li><a href="/gdpr62">Art.62 - Joint operations of supervisory authorities</a></li>
+                          <li><a href="/gdpr63">Art.63 - Consistency mechanism</a></li>
+                          <li><a href="/gdpr64">Art.64 - Opinion of the Board</a></li>
+                          <li><a href="/gdpr65">Art.65 - Dispute resolution by the Board</a></li>
+                          <li><a href="/gdpr66">Art.66 - Urgency procedure</a></li>
+                          <li><a href="/gdpr67">Art.67 - Exchange of information</a></li>
+                          <li><a href="/gdpr68">Art.68 - European Data Protection Board</a></li>
+                          <li><a href="/gdpr69">Art.69 - Independence</a></li>
+                          <li><a href="/gdpr70">Art.70 - Tasks of the Board</a></li>
+                          <li><a href="/gdpr71">Art.71 - Reports</a></li>
+                          <li><a href="/gdpr72">Art.72 - Procedure</a></li>
+                          <li><a href="/gdpr73">Art.73 - Chair</a></li>
+                          <li><a href="/gdpr74">Art.74 - Tasks of the Chair</a></li>
+                          <li><a href="/gdpr75">Art.75 - Secretariat</a></li>
+                          <li><a href="/gdpr76">Art.76 - Confidentiality</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#8" data-toggle="collapse" aria-expanded="false">Chapter 8</a>
+                        <ul class="collapse list-unstyled" id="8">
+                          <li><a href="/gdpr77">Art.77 - Right to lodge a complaint with a supervisory authority</a></li>
+                          <li><a href="/gdpr78">Art.78 - Right to an effective judicial remedy against a supervisory authority</a></li>
+                          <li><a href="/gdpr79">Art.79 - Right to an effective judicial remedy against a controller or processor</a></li>
+                          <li><a href="/gdpr80">Art.80 - Representation of data subjects</a></li>
+                          <li><a href="/gdpr81">Art.81 - Suspension of proceedings</a></li>
+                          <li><a href="/gdpr82">Art.82 - Right to compensation and liability</a></li>
+                          <li><a href="/gdpr83">Art.83 - General conditions for imposing administrative fines</a></li>
+                          <li><a href="/gdpr84">Art.84 - Penalties</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#9" data-toggle="collapse" aria-expanded="false">Chapter 9</a>
+                        <ul class="collapse list-unstyled" id="9">
+                          <li><a href="/gdpr85">Art.85 - Processing and freedom of expression and information</a></li>
+                          <li><a href="/gdpr86">Art.86 - Processing and public access to official documents</a></li>
+                          <li><a href="/gdpr87">Art.87 - Processing of the national identification number</a></li>
+                          <li><a href="/gdpr88">Art.88 - Processing in the context of employment</a></li>
+                          <li><a href="/gdpr89">Art.89 - Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes</a></li>
+                          <li><a href="/gdpr90">Art.90 - Obligations of secrecy</a></li>
+                          <li><a href="/gdpr91">Art.91 - Existing data protection rules of churches and religious associations</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#10" data-toggle="collapse" aria-expanded="false">Chapter 10</a>
+                        <ul class="collapse list-unstyled" id="10">
+                          <li><a href="/gdpr92">Art.92 - Exercise of the delegation</a></li>
+                          <li><a href="/gdpr93">Art.93 - Committee procedure</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#11" data-toggle="collapse" aria-expanded="false">Chapter 11</a>
+                        <ul class="collapse list-unstyled" id="11">
+                          <li><a href="/gdpr94">Art.94 - Repeal of Directive 95/46/EC</a></li>
+                          <li><a href="/gdpr95">Art.95 - Relationship with Directive 2002/58/EC</a></li>
+                          <li><a href="/gdpr96">Art.96 - Relationship with previously concluded Agreements</a></li>
+                          <li><a href="/gdpr97">Art.97 - Commission reports</a></li>
+                          <li><a href="/gdpr98">Art.98 - Review of other Union legal acts on data protection</a></li>
+                          <li><a href="/gdpr99">Art.99 - Entry into force and application</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <ul class="list-unstyled CTAs">
+                    <li><a href="#" class="download">Download</a></li>
+                    <li><a href="/" class="article">Back to home</a></li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="title" style="text-align: center">
+                    {% block title %}{% endblock %}
+                </div>
+                <div class="line"></div>
+                <div class="article-content">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+
+
+
+        </div>
+
+
+
+
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                     $(this).toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>
